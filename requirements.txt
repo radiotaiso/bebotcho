@@ -1,5 +1,12 @@
+aiohttp==2.0.7
 appdirs==1.4.3
+async-timeout==1.2.1
+chardet==3.0.2
+multidict==2.1.4
 packaging==16.8
 pyparsing==2.2.0
 requests==2.14.1
 six==1.10.0
+telepot==11.0
+urllib3==1.21.1
+yarl==0.10.2
