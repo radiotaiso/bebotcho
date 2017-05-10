@@ -12,7 +12,7 @@ import config
 
 def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
-    print(content_type, chat_type, chat_id)
+#    print(content_type, chat_type, chat_id)
 #    pprint(msg) # Debugging purposes
 
     if content_type == 'text':
@@ -46,7 +46,7 @@ TOKEN = config.token
 
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()
-print ('Listening ...')
+print ('Bot is alive and kicking ...')
 
 # Keep the program running.
 while 1:
