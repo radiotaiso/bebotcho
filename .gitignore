@@ -1,5 +1,6 @@
 # Project stuff
 config.py
+*.swp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
