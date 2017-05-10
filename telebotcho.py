@@ -14,7 +14,7 @@ def handle(msg):
         if 'hola bebotcho' in msg['text'].lower():
             bot.sendMessage(chat_id,'que pedal?')
         elif 'buenos dias bebotcho' in msg['text'].lower():
-            bot.sendMessage(chat_id, 'buenos días '+msg['username'])
+            bot.sendMessage(chat_id, 'buenos dias {}'.format(msg['chat']['first_name']))
         elif 'chinga tu madre bebotcho' in msg['text'].lower():
             bot.sendMessage(chat_id, 'la tuya en vinagre')
     else: 
