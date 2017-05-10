@@ -2,6 +2,7 @@ import sys
 import time
 import telepot
 from telepot.loop import MessageLoop
+import config
 
 def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
@@ -16,7 +17,7 @@ def handle(msg):
     else: 
         print('not text, srry')
 
-TOKEN = ('261581634:AAGlaLIojN6LhraMxV6cvrIK34_poE8Xsu8')
+TOKEN = config.token
 
 bot = telepot.Bot(TOKEN)
 MessageLoop(bot, handle).run_as_thread()
