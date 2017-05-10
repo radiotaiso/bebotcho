@@ -10,7 +10,7 @@ Some shit might be in spanish, mostly string responses for user input, feel free
 * You'll need your own telgram bot token (you can make your own using @Botfather)
 * Create `config.py` file and just put there `token = 'your_token_goes_here'`.
 * Go to your favorite terminal, enable the virtualenv and `python telebotcho.py`.
-There you go.
+* There you go.
 
 ### Say hi to bebocho!
 If you say `Hola bebotcho!` he will answer back!
