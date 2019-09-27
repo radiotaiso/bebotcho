@@ -24,10 +24,6 @@ Same way as before but this time the trigger is anything that contains `buenos d
 ### Fuck off as a service!
 Using the [FOAAS python wrapper](https://github.com/dmpayton/foaas-python), Bebotcho knows when life sucks! just tell him anything containing `fml` and `bebotcho` in the same message.
 
-### When Uriel (that's me) is president...
-A man's gotta have dreams you know? anyway, this is an inside joke, for this part to work you'll need to create another file (or in the same main file, it's your mess not mine) and the random choice to match your lists name.
-Then I guess you could change the references to me being president, the scope of this is to get a random item from a list.
-
 #### Everything else
 Big kudos to the python wrapper for Telegram API [Telepot](https://github.com/nickoala/telepot) and [Fuck Off As A Service](https://www.foaas.com/)!
 
